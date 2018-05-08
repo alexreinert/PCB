@@ -14,13 +14,16 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 * Mikroschalter 6*6mm
 * Stiftleiste RM 2mm 1x8 Pin (Für CC1101)
 * Stiftleiste RM 2,54MM (nach Bedarf)
+* IRLU024N (optional für Verpolungsschutz)
+* 100KOhm Widerstand (optional für Verpolungsschutz)
+* 2x 10KOhm Widerstand (optional Pullup für I2C)
 
 ### Passendes Gehäuse
 * Camdenboss CBRS01SWH und CBRS01VWH
 
 ### Hinweise
-* Achtung: kein Verpolungs- oder Überspannungschutz vorhanden
-* Am I2C sind keine Pullups vorhanden, da diese im Regelfall auf I2C Platinen bereits integriert sind
+* Achtung: Kein Überspannungschutz vorhanden
+* Der Verpolungsschutz ist optional. Dafür Bauteil Q1 (IRLU024N) und R3 (100KOhm Widerstand) bestücken. Alternativ J8 auf der Platinenrückseite brücken um ohne Verpolungsschutz zu arbeiten.
 
 ## HB-UNI-SEN-PCB
 Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](https://github.com/pa-pa/AskSinPP)
@@ -41,3 +44,6 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 * Achtung: kein Verpolungs- oder Überspannungschutz vorhanden
 * Am I2C sind keine Pullups vorhanden, da diese im Regelfall auf I2C Platinen bereits integriert sind
 * Aktuell fehlt noch ein Kondensator am VCC vom CC1101.
+
+## HB-UNI-SEN-O
+### Work in progress, do not use
