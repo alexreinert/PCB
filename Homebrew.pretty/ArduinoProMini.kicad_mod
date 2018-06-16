@@ -1,4 +1,4 @@
-(module ArduinoProMini (layer F.Cu) (tedit 5ADA21FF)
+(module ArduinoProMini (layer F.Cu) (tedit 5AF60899)
   (fp_text reference U1 (at 3.81 -13.97) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -65,6 +65,10 @@
   (fp_line (start 33.02 0) (end 33.02 -17.78) (layer F.SilkS) (width 0.15))
   (fp_line (start 33.02 -17.78) (end 0 -17.78) (layer F.SilkS) (width 0.15))
   (fp_line (start 0 -17.78) (end 0 0) (layer F.SilkS) (width 0.15))
+  (pad 28 thru_hole circle (at 10.16 -3.81) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (pad 27 thru_hole circle (at 7.62 -3.81) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (pad 27 thru_hole circle (at 1.27 -6.35) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (pad 28 thru_hole circle (at 1.27 -3.81) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 1.27 -1.27) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.81 -1.27) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 6.35 -1.27) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:HB-UNI-SEN-BATT-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -39,8 +40,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "HB-UNI-SEN-BATT"
-Date "2018-05-03"
-Rev "1.5"
+Date "2018-05-11"
+Rev "1.6"
 Comp "Alexander Reinert"
 Comment1 ""
 Comment2 ""
@@ -147,7 +148,7 @@ F 3 "" H 2150 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CC1101 U2
+L CC1101-RESCUE-HB-UNI-SEN-BATT U2
 U 1 1 5AC3AFA1
 P 1650 5900
 F 0 "U2" H 1600 6600 60  0000 C CNN
@@ -301,17 +302,6 @@ F 3 "" H 4800 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduinoProMini U1
-U 1 1 5ACA0010
-P 1900 3600
-F 0 "U1" H 1400 4950 60  0000 C CNN
-F 1 "ArduinoProMini" H 2050 2700 60  0000 C CNN
-F 2 "Homebrew:ArduinoProMini" H 1900 3500 60  0001 C CNN
-F 3 "" H 1900 3500 60  0001 C CNN
-	1    1900 3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L PWR_FLAG #FLG014
 U 1 1 5ACA03CA
 P 3850 1150
@@ -353,7 +343,7 @@ Text Label 2750 4100 0    60   ~ 0
 SDA
 Text Label 2750 4200 0    60   ~ 0
 SCL
-Text Label 2700 4400 0    60   ~ 0
+Text Label 2700 4600 0    60   ~ 0
 RSET
 Text Label 2600 5350 0    60   ~ 0
 MOSI
@@ -565,8 +555,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 4200 2900 4200
 Wire Wire Line
-	2600 4400 2900 4400
-Wire Wire Line
 	2750 2600 2750 2500
 Wire Wire Line
 	2750 2500 3500 2500
@@ -734,4 +722,19 @@ F 3 "" H 2600 1250 50  0001 C CNN
 $EndComp
 Connection ~ 2350 1250
 Connection ~ 2900 1250
+$Comp
+L ArduinoProMini U1
+U 1 1 5AF60D3E
+P 1900 3600
+F 0 "U1" H 1400 4950 60  0000 C CNN
+F 1 "ArduinoProMini" H 2050 2450 60  0000 C CNN
+F 2 "Homebrew:ArduinoProMini" H 1900 3500 60  0001 C CNN
+F 3 "" H 1900 3500 60  0001 C CNN
+	1    1900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4600 2900 4600
+NoConn ~ 2600 4400
+NoConn ~ 2600 4300
 $EndSCHEMATC
