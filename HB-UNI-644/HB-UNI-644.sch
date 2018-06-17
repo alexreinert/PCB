@@ -39,10 +39,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "HB-UNI-644"
+Date "2018-06-17"
+Rev "1.1"
+Comp "Alexander Reinert"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1584,4 +1584,6 @@ Wire Wire Line
 	3100 3050 4650 3050
 Connection ~ 4650 3050
 Connection ~ 4150 3050
+Text Notes 3450 1600 0    31   Italic 0
+RAW+ < 5V: Use IRLML6244 without diode\n5V < RAW+ < 10V: Use IRML6244 or IRLML0030 with or without diode\n10V < RAW+ < 16V: Use IRLML0030 with or without diode\nRAW+ > 16V: Use IRLML0030 with diode
 $EndSCHEMATC
