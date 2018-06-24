@@ -45,7 +45,7 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 * Am I2C sind keine Pullups vorhanden, da diese im Regelfall auf I2C Platinen bereits integriert sind
 * Aktuell fehlt noch ein Kondensator am VCC vom CC1101.
 
-## HB-UNI-644
+## HB-UNI-644 (Rev. 2)
 Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](https://github.com/pa-pa/AskSinPP) und dem ATmega644PA
 ![Layout](HB-UNI-644/HB-UNI-644.png)
 [Schaltplan](HB-UNI-644/HB-UNI-644.pdf)
@@ -54,7 +54,7 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 #### Grundfunktion
 * ATmega644PA oder ATmega1284P (TQFP44) (U1)
 * CC1101 Modulplatine 868MHz ggf. mit RM 2.0 Pinheader (U2)
-* 1x Kerko 10uF 0805 (c13)
+* 1x Kerko 10uF 0805 (C13)
 * 7x Kerko 10nF 0805 (C1-C6, C14)
 * 2x Widerstand 330 Ohm 0805 (R2, R3)
 * 1x Widerstand 10K Ohm 0805 (R1)
@@ -64,25 +64,38 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 * 2x Kerko 22pF 0805 (C7, C8) (optional für Quarz)
 * Pinheader nach Bedarf
 
-#### Batteriebetrieb mit Step-Up
+#### Power Option 1: Batteriebetrieb mit Step-Up
 * 2x Goobay Batteriehalter Mignon Print
-* 1x Widerstand 470K Ohm 0805
-* 1x Widerstand 100K Ohm 0805
-* 1x MAX1724EZK33+T (U3)
+* 1x Widerstand 470K Ohm 0805 (R5)
+* 1x Widerstand 100K Ohm 0805 (R6)
+* 1x MAX1724EZK33 (U3)
 * 1x LQH43CN100K03L (L1)
-* 1x Kerko 10uF 1206 (C9)
+* 1x Kerko 10uF 0805 (C9)
 * 1x Kerko 33uF 1206 (C10)
-
-#### Externe Stromversorgung mit 5-24V
-* 1x LM3480-3.3
-* 1x Kerko 10uF 50V 1206 (C11)
-* 1x Kerko 10uF 1206 (C12)
-
-#### Verpolungsschutz (optional, aber sehr empfohlen)
-* 1x IRLML6244 (Q1) (Bei Eingangsspannung < 10V)
-* 1x IRLML0030 (Q1) (Bei Eingangsspannung > 10V)
-* 1x ZMM16V MicroMELF (D2) (Bei Eingangsspannung > 16V)
+##### Verpolungsschutz und Überlastschutz
+* 1x IRLML6244 (Q1)
 * 1x Widerstand 100K Ohm 0805 (R4)
+* 1x PTC 6V/250mA 1206 (F1)
+
+#### Power Option 2: Externe Stromversorgung mit 5-9V, 100mA
+* 1x HT-7533-1 (U4)
+* 1x Kerko 10uF 50V 1206 (C11)
+* 1x Kerko 10uF 0805 (C12)
+* 1x Elko 1000uF 8mm*12mm (C15)
+##### Verpolungsschutz und Überlastschutz
+* 1x IRLML5203 (Q2)
+* 1x Widerstand 100K Ohm 0805 (R11)
+* 1x PTC 16V/250mA 1206 (F1)
+
+#### Power Option 3: Externe Stromversorgung 5-24V, 1A
+* 1x [MP2315 Power Module](https://de.aliexpress.com/item/DC-DC-R-cktritt-Abw-rtswandler-Einstellbar-4-5-V-24-V-zu-5-V-3A/32833398745.html)
+   Kontakt zum Trimmer durchtrennen, Lötbrücke bei 3.3V anbringen
+* 1x Elko 1000uF 8mm*12mm (C15)
+##### Verpolungsschutz und Überlastschutz
+* 1x IRF4905S (Q3)
+* 1x Widerstand 100K Ohm 0805 (R12)
+* 1x Zener 16V MiniMelf (D2)
+* 1x PTC 30V/2A 1206 (F1)
 
 #### I2C Pullup Widerstände (optional)
 * 2x Widerstand 10k Ohm 0805 (R7, R8)
@@ -93,11 +106,26 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 ### Passendes Gehäuse
 * Camdenboss CBRS01SWH und CBRS01VWH
 
+### Betrieb mit 5V, 16MHz bei Netzbetrieb
+* Der MC kann auch mit 5V und dann mit 16MHz betrieben werden, dafür müssen ggü. oben folgende Anpassungen gemacht werden:
+* Nicht möglich bei Power Option 1
+* Bei Power Option 2: HT-7550-1 statt HT-7533-1 uf U4
+* Bei Power Option 3: Lötbrücke auf MP2315 Modul bei 5V statt bei 3.3V
+* CC1101 auf Position U5 statt auf U2
+* Nicht bestücken: C13, C14
+* Quarz Y1 mit 16MHz statt 8MHz
+* Zusätzliche Bauteile
+   * 1x LM-3480-3.3 (U6)
+   * 1x TXS0108EPWR (U7)
+   * 3x Kerko 10uF 0805 (C16, C18, C19)
+   * 3x Kerko 10nF 0805 (C17, C20, C21)
+* ACHTUNG: Alle VCC Pins laufen dann auf 5V, auch z.B. die vom I2C
+
 ### Hinweise
 * Auch wenn die meisten Bauteile SMD sind, so ist die Platine für Handlötung entwickelt. Dementsprechend sind alle Teile mind. 0805 mit vergrößerten Pads für Handlötung.
-* Es kann entweder der Step-up oder der Step-Down bestückt werden, niemals beides zusammen
-* Die rechte Seite der Platine kann entfernt werden, wenn die Batteriehalter nicht benötigt werden, es laufen keine Leiterbahnen rechts der Fräsung (abgesehen von denen für die Batterie)
-* Falls der Verpolungsschutz nicht verwendet werden soll, dann muss die Lötbrücke J2 geschlossen werden
-* Falls eine externe Spannung von 3.3V ohne Spannungsanpassung verwendet werden soll, dann muss die Lötbrücke J4 geschlossen werden
+* Es darf immer nur eine Power Option genutzt und bestückt werden
+* Die rechte Seite der Platine kann entfernt werden, wenn die Batteriehalter oder das MP2315 Power Module nicht benötigt werden, es laufen keine Leiterbahnen rechts der Fräsung (abgesehen von denen für die Batterie bzw. Power Module)
+* Die Lötbrücke J2 muss immer geschlossen werden, außer es wird der Verpolungsschutz für Batteriebetrieb verwendet
+* Falls eine externe Spannung von 3.3V ohne Spannungsanpassung, Verpolungsschutz und Überlastschutz verwendet werden soll, dann muss die Lötbrücke J4 geschlossen werden
 * Die Anschlüsse an J9 sind zusammen mit J12 genau passend für die Platine CJMCU-2803 um an den Anschlüssen ein Darlington Array zu verwenden (Jeder der Ports ist dann mit 500mA belastbar)
 * Beschriftung der Anschlüsse folgt dem Bobuino Pinout

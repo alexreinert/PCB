@@ -4,4 +4,10 @@ $CMP HT7533-1
 K ldo linear fixed positive
 $ENDCMP
 #
+$CMP TXS0108EPWR
+D 8-bit bidirectional voltage level translator with auto-direction sensing USON package
+K bidirectional voltage level translator
+F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+$ENDCMP
+#
 #End Doc Library
