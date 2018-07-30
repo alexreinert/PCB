@@ -9,7 +9,7 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 * CC1101 Modulplatine 868MHz
 * 2x LEDs 3mm Low Current (Pin 4 und 5)
 * 2x 470Ohm Widerstände (Vorwiderstand für LEDs)
-* Elko 100uF 1,5mm
+* Elko 10uF 1,5mm
 * 2x Goobay Batteriehalter Mignon Print
 * Mikroschalter 6*6mm
 * Stiftleiste RM 2mm 1x8 Pin (Für CC1101)
