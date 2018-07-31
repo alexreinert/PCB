@@ -109,8 +109,8 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 ### Betrieb mit 5V, 16MHz bei Netzbetrieb
 * Der MC kann auch mit 5V und dann mit 16MHz betrieben werden, dafür müssen ggü. oben folgende Anpassungen gemacht werden:
 * Nicht möglich bei Power Option 1
-* Bei Power Option 2: HT-7550-1 statt HT-7533-1 uf U4
-* Bei Power Option 3: Lötbrücke auf MP2315 Modul bei 5V statt bei 3.3V
+* Bei Power Option 2: HT-7550-1 statt HT-7533-1 uf U4, Eingangsspannung >= 6V
+* Bei Power Option 3: Lötbrücke auf MP2315 Modul bei 5V statt bei 3.3V, Eingangsspannung >= 6V
 * CC1101 auf Position U5 statt auf U2
 * Nicht bestücken: C13, C14
 * Quarz Y1 mit 16MHz statt 8MHz

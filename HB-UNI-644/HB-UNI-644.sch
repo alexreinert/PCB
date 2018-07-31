@@ -40,8 +40,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "HB-UNI-644"
-Date "2018-06-24"
-Rev "2.0"
+Date "2018-07-31"
+Rev "2.2"
 Comp "Alexander Reinert"
 Comment1 ""
 Comment2 ""
@@ -920,7 +920,7 @@ Battery holder
 Text Notes 3150 1350 0    31   Italic 0
 Battery voltage sensor
 Text Notes 650  3850 0    60   ~ 0
-Power Option 3: External MP2315 stepup PCB\n(5-24V IN, 1A)
+Power Option 3: External MP2315 stepdown PCB\n(5-24V IN, 1A)
 $Comp
 L Conn_01x04 J12
 U 1 1 5B29AEB9
@@ -1564,11 +1564,6 @@ Wire Wire Line
 	1800 2850 2300 2850
 Wire Wire Line
 	1800 4250 2450 4250
-Wire Wire Line
-	2300 4250 2300 4350
-Wire Wire Line
-	2300 4350 2450 4350
-Connection ~ 2300 4250
 Wire Wire Line
 	2450 4150 3050 4150
 Wire Wire Line
