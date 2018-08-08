@@ -151,7 +151,7 @@ Eine passende Platine für den [Wettersensor von Jérôme](https://github.com/jp
 * 100K Widerstand
 * MPSA13 TO-92
 * 4x Molex Spox 2-pol (Alternativ Stiftleiste oder Kabel direkt anlöten)
-* 1x Molex Spox 4-pol (Alternativ Stiftleiste oder Kabel direkt anlöten)
+* 4x Molex Spox 4-pol (Alternativ Stiftleiste oder Kabel direkt anlöten)
 * 1x Molex Spox 7-pol (Alternativ Stiftleiste oder Kabel direkt anlöten)
 * Stiftleiste RM 2mm 1x8 Pin (Für CC1101)
 
