@@ -135,3 +135,26 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 * Falls eine externe Spannung von 3.3V ohne Spannungsanpassung, Verpolungsschutz und Überlastschutz verwendet werden soll, dann muss die Lötbrücke J4 geschlossen werden
 * Die Anschlüsse an J9 sind zusammen mit J12 genau passend für die Platine CJMCU-2803 um an den Anschlüssen ein Darlington Array zu verwenden (Jeder der Ports ist dann mit 500mA belastbar)
 * Beschriftung der Anschlüsse folgt dem Bobuino Pinout
+
+## HB-UNI-SEN-WEA
+Eine passende Platine für den [Wettersensor von Jérôme](https://github.com/jp112sdl/HB-UNI-Sen-WEA/)
+![Layout](HB-UNI-SEN-WEA/HB-UNI-SEN-WEA.png)
+[Schaltplan](HB-UNI-SEN-WEA/HB-UNI-SEN-WEA.pdf)
+
+### Benötigte Bauteile:
+* Arduino Pro Mini 3.3V 8Mhz (The Simple)
+* CC1101 Modulplatine 868MHz
+* Elko 10uF 1,5mm
+* Mikroschalter 6*6mm
+* Kerko 1nf RM 2.5mm
+* 10K Widerstand
+* 100K Widerstand
+* MPSA13 TO-92
+* 4x Molex Spox 2-pol (Alternativ Stiftleiste oder Kabel direkt anlöten)
+* 1x Molex Spox 4-pol (Alternativ Stiftleiste oder Kabel direkt anlöten)
+* 1x Molex Spox 7-pol (Alternativ Stiftleiste oder Kabel direkt anlöten)
+* Stiftleiste RM 2mm 1x8 Pin (Für CC1101)
+
+### Hinweise
+* Achtung: kein Verpolungs- oder Überspannungschutz vorhanden
+* Am I2C sind keine Pullups vorhanden, da diese im Regelfall auf I2C Platinen bereits integriert sind
