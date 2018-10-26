@@ -1,4 +1,4 @@
-update=25.10.2018 14:52:56
+update=25.10.2018 14:38:29
 version=1
 last_client=eeschema
 [general]
@@ -27,6 +27,16 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=.
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=

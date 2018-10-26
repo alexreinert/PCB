@@ -1,40 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:HB-UNI-SEN-PCB-rescue
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Homebrew
+EESchema Schematic File Version 4
 LIBS:HB-UNI-SEN-PCB-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x04 J1
+L conn:Conn_01x04 J1
 U 1 1 5ABE0D25
 P 6750 1050
 F 0 "J1" H 6750 1250 50  0000 C CNN
@@ -60,7 +26,7 @@ F 3 "" H 6750 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J2
+L conn:Conn_01x04 J2
 U 1 1 5ABE0DC1
 P 7350 1050
 F 0 "J2" H 7350 1250 50  0000 C CNN
@@ -71,7 +37,7 @@ F 3 "" H 7350 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_DIP_x01 SW1
+L switches:SW_DIP_x01 SW1
 U 1 1 5ABE0E28
 P 4050 2500
 F 0 "SW1" H 4050 2650 50  0000 C CNN
@@ -82,7 +48,7 @@ F 3 "" H 4050 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L Device:LED D1
 U 1 1 5ABE1195
 P 4200 2000
 F 0 "D1" H 4200 2100 50  0000 C CNN
@@ -93,7 +59,7 @@ F 3 "" H 4200 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR01
+L power:+3.3V #PWR01
 U 1 1 5ABE128D
 P 950 1900
 F 0 "#PWR01" H 950 1750 50  0001 C CNN
@@ -104,7 +70,7 @@ F 3 "" H 950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J3
+L conn:Conn_01x03 J3
 U 1 1 5ABE1EB3
 P 7350 2350
 F 0 "J3" H 7350 2550 50  0000 C CNN
@@ -115,7 +81,7 @@ F 3 "" H 7350 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J4
+L conn:Conn_01x03 J4
 U 1 1 5ABE1F38
 P 7350 3200
 F 0 "J4" H 7350 3400 50  0000 C CNN
@@ -126,7 +92,7 @@ F 3 "" H 7350 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J5
+L conn:Conn_01x02 J5
 U 1 1 5ABE1F9E
 P 7350 3800
 F 0 "J5" H 7350 3900 50  0000 C CNN
@@ -137,7 +103,7 @@ F 3 "" H 7350 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J6
+L conn:Conn_01x02 J6
 U 1 1 5ABE2007
 P 7350 4450
 F 0 "J6" H 7350 4550 50  0000 C CNN
@@ -148,7 +114,7 @@ F 3 "" H 7350 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L Device:R R1
 U 1 1 5ABE25C7
 P 3650 2000
 F 0 "R1" V 3730 2000 50  0000 C CNN
@@ -159,7 +125,7 @@ F 3 "" H 3650 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L Device:R R2
 U 1 1 5ABE27F2
 P 6900 1950
 F 0 "R2" V 6980 1950 50  0000 C CNN
@@ -170,7 +136,7 @@ F 3 "" H 6900 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L Device:R R3
 U 1 1 5ABE28D1
 P 6900 2800
 F 0 "R3" V 6980 2800 50  0000 C CNN
@@ -181,7 +147,7 @@ F 3 "" H 6900 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x02 J0
+L conn:Conn_01x02 J0
 U 1 1 5ABE2E32
 P 1650 900
 F 0 "J0" H 1650 1000 50  0000 C CNN
@@ -192,7 +158,7 @@ F 3 "" H 1650 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CC1101-RESCUE-HB-UNI-SEN-PCB U2
+L HB-UNI-SEN-PCB-rescue:CC1101-RESCUE-HB-UNI-SEN-PCB U2
 U 1 1 5AC3AFA1
 P 1650 5900
 F 0 "U2" H 1600 6600 60  0000 C CNN
@@ -203,7 +169,7 @@ F 3 "" H 1650 5900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J7
+L conn:Conn_01x04 J7
 U 1 1 5AC3B268
 P 7350 5300
 F 0 "J7" H 7350 5500 50  0000 C CNN
@@ -222,7 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	950  1900 1150 1900
 $Comp
-L +3.3V #PWR02
+L power:+3.3V #PWR02
 U 1 1 5AC7DE60
 P 6000 950
 F 0 "#PWR02" H 6000 800 50  0001 C CNN
@@ -233,7 +199,7 @@ F 3 "" H 6000 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5AC7DE98
 P 6000 1050
 F 0 "#PWR03" H 6000 800 50  0001 C CNN
@@ -244,17 +210,17 @@ F 3 "" H 6000 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 950  7150 950 
+	6000 950  6550 950 
 Connection ~ 6550 950 
 Wire Wire Line
-	6000 1050 7150 1050
+	6000 1050 6550 1050
 Connection ~ 6550 1050
 Wire Wire Line
-	6200 1250 7150 1250
+	6200 1250 6550 1250
 Connection ~ 6550 1250
 Connection ~ 6550 1150
 $Comp
-L +3.3V #PWR04
+L power:+3.3V #PWR04
 U 1 1 5AC7EBE5
 P 900 900
 F 0 "#PWR04" H 900 750 50  0001 C CNN
@@ -265,7 +231,7 @@ F 3 "" H 900 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5AC7ECC2
 P 900 1000
 F 0 "#PWR05" H 900 750 50  0001 C CNN
@@ -276,11 +242,11 @@ F 3 "" H 900 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	900  900  1450 900 
+	900  900  1250 900 
 Wire Wire Line
 	900  1000 1450 1000
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5AC7F222
 P 6650 2350
 F 0 "#PWR06" H 6650 2100 50  0001 C CNN
@@ -291,7 +257,7 @@ F 3 "" H 6650 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR07
+L power:+3.3V #PWR07
 U 1 1 5AC7F4EE
 P 1200 5350
 F 0 "#PWR07" H 1200 5200 50  0001 C CNN
@@ -304,7 +270,7 @@ $EndComp
 Wire Wire Line
 	1200 5350 1350 5350
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5AC7FA89
 P 1200 5900
 F 0 "#PWR08" H 1200 5650 50  0001 C CNN
@@ -317,7 +283,7 @@ $EndComp
 Wire Wire Line
 	1200 5900 1350 5900
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5AC7FD3C
 P 950 3750
 F 0 "#PWR09" H 950 3500 50  0001 C CNN
@@ -328,7 +294,7 @@ F 3 "" H 950 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  3700 1150 3700
+	950  3700 1050 3700
 Wire Wire Line
 	950  3750 950  3700
 Wire Wire Line
@@ -339,9 +305,9 @@ Connection ~ 1050 3700
 Wire Wire Line
 	6900 2450 7150 2450
 Wire Wire Line
-	6900 2250 7150 2250
+	6900 2250 7100 2250
 Wire Wire Line
-	6650 2350 7150 2350
+	6650 2350 6700 2350
 Wire Wire Line
 	7050 1950 7100 1950
 Wire Wire Line
@@ -357,9 +323,9 @@ Wire Wire Line
 Wire Wire Line
 	7100 2800 7100 3100
 Wire Wire Line
-	6900 3100 7150 3100
+	6900 3100 7100 3100
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 5AC8103C
 P 6650 3200
 F 0 "#PWR010" H 6650 2950 50  0001 C CNN
@@ -370,7 +336,7 @@ F 3 "" H 6650 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 3200 7150 3200
+	6650 3200 6700 3200
 Wire Wire Line
 	6700 3200 6700 2800
 Wire Wire Line
@@ -378,7 +344,7 @@ Wire Wire Line
 Connection ~ 6700 3200
 Connection ~ 7100 3100
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 5AC81356
 P 7000 3900
 F 0 "#PWR011" H 7000 3650 50  0001 C CNN
@@ -391,7 +357,7 @@ $EndComp
 Wire Wire Line
 	7000 3900 7150 3900
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5AC81860
 P 7000 4550
 F 0 "#PWR012" H 7000 4300 50  0001 C CNN
@@ -432,7 +398,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 3700 2900 3700
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 5AC84E05
 P 4800 2500
 F 0 "#PWR013" H 4800 2250 50  0001 C CNN
@@ -453,10 +419,10 @@ Wire Wire Line
 Wire Wire Line
 	4700 2000 4700 2500
 Wire Wire Line
-	4350 2500 4800 2500
+	4350 2500 4700 2500
 Connection ~ 4700 2500
 $Comp
-L PWR_FLAG #FLG014
+L power:PWR_FLAG #FLG014
 U 1 1 5ACA03CA
 P 1250 900
 F 0 "#FLG014" H 1250 975 50  0001 C CNN
@@ -555,9 +521,9 @@ SDA
 Text Label 6200 1150 0    60   ~ 0
 SCL
 Wire Wire Line
-	6200 1150 7150 1150
+	6200 1150 6550 1150
 $Comp
-L ArduinoProMini U1
+L Homebrew:ArduinoProMini U1
 U 1 1 5AF60EC1
 P 1900 3100
 F 0 "U1" H 1400 4450 60  0000 C CNN
@@ -571,4 +537,26 @@ Wire Wire Line
 	2600 4100 2900 4100
 NoConn ~ 2600 3800
 NoConn ~ 2600 3900
+Wire Wire Line
+	6550 950  7150 950 
+Wire Wire Line
+	6550 1050 7150 1050
+Wire Wire Line
+	6550 1250 7150 1250
+Wire Wire Line
+	6550 1150 7150 1150
+Wire Wire Line
+	1050 3700 1150 3700
+Wire Wire Line
+	7100 2250 7150 2250
+Wire Wire Line
+	6700 2350 7150 2350
+Wire Wire Line
+	6700 3200 7150 3200
+Wire Wire Line
+	7100 3100 7150 3100
+Wire Wire Line
+	4700 2500 4800 2500
+Wire Wire Line
+	1250 900  1450 900 
 $EndSCHEMATC

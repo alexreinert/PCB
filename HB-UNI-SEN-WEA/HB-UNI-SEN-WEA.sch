@@ -1,40 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:HB-UNI-SEN-WEA-rescue
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Homebrew
+EESchema Schematic File Version 4
 LIBS:HB-UNI-SEN-WEA-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x04 J2
+L conn:Conn_01x04 J2
 U 1 1 5ABE0D25
 P 6750 1050
 F 0 "J2" H 6750 1250 50  0000 C CNN
@@ -60,7 +26,7 @@ F 3 "" H 6750 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J3
+L conn:Conn_01x04 J3
 U 1 1 5ABE0DC1
 P 7350 1050
 F 0 "J3" H 7350 1250 50  0000 C CNN
@@ -71,7 +37,7 @@ F 3 "" H 7350 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_DIP_x01 SW1
+L switches:SW_DIP_x01 SW1
 U 1 1 5ABE0E28
 P 4050 2500
 F 0 "SW1" H 4050 2650 50  0000 C CNN
@@ -82,7 +48,7 @@ F 3 "" H 4050 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1
+L conn:Conn_01x02 J1
 U 1 1 5ABE2E32
 P 1650 900
 F 0 "J1" H 1650 1000 50  0000 C CNN
@@ -93,7 +59,7 @@ F 3 "" H 1650 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5AC7DE98
 P 6000 1050
 F 0 "#PWR01" H 6000 800 50  0001 C CNN
@@ -104,7 +70,7 @@ F 3 "" H 6000 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5AC7ECC2
 P 900 1000
 F 0 "#PWR02" H 900 750 50  0001 C CNN
@@ -115,7 +81,7 @@ F 3 "" H 900 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5AC7FA89
 P 1200 5900
 F 0 "#PWR03" H 1200 5650 50  0001 C CNN
@@ -126,7 +92,7 @@ F 3 "" H 1200 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 5AC7FD3C
 P 950 3750
 F 0 "#PWR04" H 950 3500 50  0001 C CNN
@@ -137,7 +103,7 @@ F 3 "" H 950 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5AC81356
 P 6400 3150
 F 0 "#PWR05" H 6400 2900 50  0001 C CNN
@@ -148,7 +114,7 @@ F 3 "" H 6400 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5AC84E05
 P 4800 2500
 F 0 "#PWR06" H 4800 2250 50  0001 C CNN
@@ -159,7 +125,7 @@ F 3 "" H 4800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG07
+L power:PWR_FLAG #FLG07
 U 1 1 5ACA03CA
 P 1250 900
 F 0 "#FLG07" H 1250 975 50  0001 C CNN
@@ -215,7 +181,7 @@ SDA
 Text Label 6200 1150 0    60   ~ 0
 SCL
 $Comp
-L ArduinoProMini U1
+L Homebrew:ArduinoProMini U1
 U 1 1 5AF60EC1
 P 1900 3100
 F 0 "U1" H 1400 4450 60  0000 C CNN
@@ -230,7 +196,7 @@ NoConn ~ 2600 3900
 Text Label 2800 2000 0    60   ~ 0
 D3
 $Comp
-L VCC #PWR08
+L power:VCC #PWR08
 U 1 1 5B60A376
 P 950 2000
 F 0 "#PWR08" H 950 1850 50  0001 C CNN
@@ -241,7 +207,7 @@ F 3 "" H 950 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR09
+L power:VCC #PWR09
 U 1 1 5B60A562
 P 900 900
 F 0 "#PWR09" H 900 750 50  0001 C CNN
@@ -252,7 +218,7 @@ F 3 "" H 900 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR010
+L power:+3.3V #PWR010
 U 1 1 5B60A5AE
 P 1150 1900
 F 0 "#PWR010" H 1150 1750 50  0001 C CNN
@@ -263,7 +229,7 @@ F 3 "" H 1150 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR011
+L power:+3.3V #PWR011
 U 1 1 5B60A5E7
 P 1200 5350
 F 0 "#PWR011" H 1200 5200 50  0001 C CNN
@@ -274,7 +240,7 @@ F 3 "" H 1200 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR012
+L power:+3.3V #PWR012
 U 1 1 5B60A6DA
 P 6000 950
 F 0 "#PWR012" H 6000 800 50  0001 C CNN
@@ -285,7 +251,7 @@ F 3 "" H 6000 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J4
+L conn:Conn_01x04 J4
 U 1 1 5B60A8CB
 P 7950 1050
 F 0 "J4" H 7950 1250 50  0000 C CNN
@@ -296,7 +262,7 @@ F 3 "" H 7950 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J7
+L conn:Conn_01x02 J7
 U 1 1 5B60AC3C
 P 6750 3050
 F 0 "J7" H 6750 3150 50  0000 C CNN
@@ -307,7 +273,7 @@ F 3 "" H 6750 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 5B60B1CC
 P 6400 2550
 F 0 "#PWR013" H 6400 2300 50  0001 C CNN
@@ -320,7 +286,7 @@ $EndComp
 Text Label 6300 2450 0    60   ~ 0
 D6
 $Comp
-L Conn_01x02 J6
+L conn:Conn_01x02 J6
 U 1 1 5B60B1D5
 P 6750 2450
 F 0 "J6" H 6750 2550 50  0000 C CNN
@@ -331,7 +297,7 @@ F 3 "" H 6750 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5B60B27F
 P 6400 1950
 F 0 "#PWR014" H 6400 1700 50  0001 C CNN
@@ -344,7 +310,7 @@ $EndComp
 Text Label 6300 1850 0    60   ~ 0
 D5
 $Comp
-L Conn_01x02 J5
+L conn:Conn_01x02 J5
 U 1 1 5B60B288
 P 6750 1850
 F 0 "J5" H 6750 1950 50  0000 C CNN
@@ -355,7 +321,7 @@ F 3 "" H 6750 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J8
+L conn:Conn_01x04 J8
 U 1 1 5B60B45E
 P 8050 4200
 F 0 "J8" H 8050 4400 50  0000 C CNN
@@ -366,7 +332,7 @@ F 3 "" H 8050 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR015
+L power:VCC #PWR015
 U 1 1 5B60B944
 P 7700 4100
 F 0 "#PWR015" H 7700 3950 50  0001 C CNN
@@ -377,7 +343,7 @@ F 3 "" H 7700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L power:GND #PWR016
 U 1 1 5B60BA08
 P 7700 4400
 F 0 "#PWR016" H 7700 4150 50  0001 C CNN
@@ -388,7 +354,7 @@ F 3 "" H 7700 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L Device:R R2
 U 1 1 5B60BADF
 P 6900 4300
 F 0 "R2" V 6980 4300 50  0000 C CNN
@@ -399,7 +365,7 @@ F 3 "" H 6900 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1
+L Device:C_Small C1
 U 1 1 5B60BBC8
 P 7400 4300
 F 0 "C1" V 7450 4350 50  0000 L CNN
@@ -414,7 +380,7 @@ D4
 Text Label 2800 2100 0    60   ~ 0
 D4
 $Comp
-L Q_NPN_Darlington_EBC Q1
+L Device:Q_NPN_Darlington_EBC Q1
 U 1 1 5B60C3E7
 P 7050 3800
 F 0 "Q1" V 7250 3850 50  0000 L CNN
@@ -425,7 +391,7 @@ F 3 "" H 7050 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5B60C5F0
 P 6750 3900
 F 0 "#PWR017" H 6750 3650 50  0001 C CNN
@@ -436,7 +402,7 @@ F 3 "" H 6750 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L Device:R R1
 U 1 1 5B60CA75
 P 6700 3600
 F 0 "R1" V 6780 3600 50  0000 C CNN
@@ -451,7 +417,7 @@ D9
 Text Label 6300 3600 0    60   ~ 0
 D9
 $Comp
-L Conn_01x07 J9
+L conn:Conn_01x07 J9
 U 1 1 5B60CD7F
 P 7150 5250
 F 0 "J9" H 7150 5650 50  0000 C CNN
@@ -470,11 +436,11 @@ Wire Wire Line
 Connection ~ 6550 950 
 Connection ~ 6550 1050
 Wire Wire Line
-	6200 1250 7750 1250
+	6200 1250 6550 1250
 Connection ~ 6550 1250
 Connection ~ 6550 1150
 Wire Wire Line
-	900  900  1450 900 
+	900  900  1250 900 
 Wire Wire Line
 	900  1000 1450 1000
 Wire Wire Line
@@ -482,7 +448,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 5900 1350 5900
 Wire Wire Line
-	950  3700 1150 3700
+	950  3700 1050 3700
 Wire Wire Line
 	950  3750 950  3700
 Wire Wire Line
@@ -534,7 +500,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 3050 6300 3050
 Wire Wire Line
-	6200 1150 7750 1150
+	6200 1150 6550 1150
 Wire Wire Line
 	2900 2000 2600 2000
 Connection ~ 7150 950 
@@ -554,7 +520,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 4300 7500 4300
 Wire Wire Line
-	7300 4300 7050 4300
+	7300 4300 7150 4300
 Wire Wire Line
 	6300 4300 6750 4300
 Wire Wire Line
@@ -576,11 +542,11 @@ Wire Wire Line
 Wire Wire Line
 	7700 4400 7850 4400
 Wire Wire Line
-	6000 1050 7750 1050
+	6000 1050 6550 1050
 Wire Wire Line
-	6000 950  7750 950 
+	6000 950  6550 950 
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 5B60D521
 P 6350 5050
 F 0 "#PWR018" H 6350 4800 50  0001 C CNN
@@ -591,7 +557,7 @@ F 3 "" H 6350 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR019
+L power:+3.3V #PWR019
 U 1 1 5B60D527
 P 6350 4950
 F 0 "#PWR019" H 6350 4800 50  0001 C CNN
@@ -628,7 +594,7 @@ Text Label 6300 4500 0    60   ~ 0
 A3
 NoConn ~ 2600 4100
 $Comp
-L CP_Small C2
+L Device:CP_Small C2
 U 1 1 5B60CD03
 P 1200 6650
 F 0 "C2" H 1210 6720 50  0000 L CNN
@@ -639,7 +605,7 @@ F 3 "" H 1200 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR020
+L power:+3.3V #PWR020
 U 1 1 5B60CD87
 P 1200 6450
 F 0 "#PWR020" H 1200 6300 50  0001 C CNN
@@ -650,7 +616,7 @@ F 3 "" H 1200 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L power:GND #PWR021
 U 1 1 5B60CDC5
 P 1200 6850
 F 0 "#PWR021" H 1200 6600 50  0001 C CNN
@@ -665,7 +631,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 6750 1200 6850
 $Comp
-L CC1101 U2
+L Homebrew:CC1101 U2
 U 1 1 5B621728
 P 1650 5900
 F 0 "U2" H 1600 6600 60  0000 C CNN
@@ -675,4 +641,26 @@ F 3 "" H 1650 5900 60  0001 C CNN
 	1    1650 5900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6550 950  7150 950 
+Wire Wire Line
+	6550 1050 7150 1050
+Wire Wire Line
+	6550 1250 7150 1250
+Wire Wire Line
+	6550 1150 7150 1150
+Wire Wire Line
+	1050 3700 1150 3700
+Wire Wire Line
+	1250 900  1450 900 
+Wire Wire Line
+	7150 950  7750 950 
+Wire Wire Line
+	7150 1050 7750 1050
+Wire Wire Line
+	7150 1150 7750 1150
+Wire Wire Line
+	7150 1250 7750 1250
+Wire Wire Line
+	7150 4300 7050 4300
 $EndSCHEMATC
