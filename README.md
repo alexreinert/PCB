@@ -5,6 +5,28 @@ Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung - Nicht-k
 Bei Nutzung der Platinen freue ich mich über Feedback und kleine Aufmerksamkeiten aus meiner [Amazon Wunschliste](https://www.amazon.de/gp/registry/wishlist/3NNUQIQO20AAP/ref=nav_wishlist_lists_1).
 
 # PCB
+## HB-RF-USB
+Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RF-RPI-MOD per USB anschließen zu können.
+![Layout](HB-RF-USB/HB-RF-USB.png)
+[Schaltplan](HB-RF-USB/HB-RF-USB.pdf)
+
+### Benötigte Bauteile:
+* 1x FTDI FT232RL (U1)
+* 1x Micro USB Connector MK5P
+* 1x Kerko 4.7nF 0805 (C9)
+* 1x Kerko 10nF 0805 (C7)
+* 6x Kerko 100nF 0805 (C1-C6)
+* 1x Kerko 4.7uF 0805 (C8)
+* 2x Widerstand 1K 0805 (R2, R3)
+* 2x Widerstand 10K 0805 (R1, R5)
+* 1x Widerstand 1M 0805 (R4)
+* 2x IRLML6402 (Q1, Q2)
+* 1x IRLML2502 (Q1)
+
+### EEPROM flashen
+Das EEPROM des FT232RL muss mit dem Programm [FT_Prog](https://www.ftdichip.com/Support/Utilities.htm#FT_PROG) programmiert werden. Ein passendes Template findet sich [hier](HB-RF-USB/HB-RF-USB_FT232R_Template.xml). Dieses Template ist nur mit der Platine HB-RF-USB kompatibel. Eine Nutzung mit anderen Platinen ist untersagt, da es dort u.U. zu Defekten bis hin zur Zerstörung angeschlossener Hardware kommen kann.
+Die Platine benötigt spezielle Treiber, diese sind in [piVCCU3](https://github.com/alexreinert/piVCCU) ab Version 3.41.11-13 eingebaut.
+
 ## HB-UNI-SEN-BATT
 Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](https://github.com/pa-pa/AskSinPP)
 ![Layout](HB-UNI-SEN-BATT/HB-UNI-SEN-BATT.png)
