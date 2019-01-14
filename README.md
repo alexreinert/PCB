@@ -20,6 +20,7 @@ Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RF-RPI-MOD per USB a
 * 2x Widerstand 1K 0805 (R2, R3)
 * 2x Widerstand 10K 0805 (R1, R5)
 * 1x Widerstand 1M 0805 (R4)
+* 1x Ferritperle 30 Ohm 0805 (L1)
 * 2x IRLML6402 (Q1, Q2)
 * 1x IRLML2502 (Q1)
 
