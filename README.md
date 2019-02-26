@@ -86,7 +86,7 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 * ATmega644PA oder ATmega1284P (TQFP44) (U1)
 * CC1101 Modulplatine 868MHz ggf. mit RM 2.0 Pinheader (U2)
 * 1x Kerko 10uF 0805 (C13)
-* 7x Kerko 10nF 0805 (C1-C6, C14)
+* 7x Kerko 100nF 0805 (C1-C6, C14)
 * 2x Widerstand 330 Ohm 0805 (R2, R3)
 * 1x Widerstand 10K Ohm 0805 (R1)
 * 1x Triple Color LED Common Cathode THT (D1)
@@ -149,7 +149,7 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
    * 1x LM-3480-3.3 (U6)
    * 1x TXS0108EPWR (U7)
    * 3x Kerko 10uF 0805 (C16, C18, C19)
-   * 3x Kerko 10nF 0805 (C17, C20, C21)
+   * 3x Kerko 100nF 0805 (C17, C20, C21)
 * ACHTUNG: Alle VCC Pins laufen dann auf 5V, auch z.B. die vom I2C
 
 ### Hinweise
