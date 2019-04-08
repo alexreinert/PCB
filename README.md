@@ -22,13 +22,13 @@ Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RF-RPI-MOD per USB a
 * 1x Widerstand 1M 0805 (R4)
 * 1x Ferritperle 30 Ohm 0805 (L1)
 * 2x IRLML6402 (Q1, Q2)
-* 1x IRLML2502 (Q1)
+* 1x IRLML2502 (Q3)
 * 1x Pinheader 2*6
 * 1x Pinheader 2*20
 
 ### EEPROM flashen
 Das EEPROM des FT232RL muss mit dem Programm [FT_Prog](https://www.ftdichip.com/Support/Utilities.htm#FT_PROG) programmiert werden. Ein passendes Template findet sich [hier](HB-RF-USB/HB-RF-USB_FT232R_Template.xml). Dieses Template ist nur mit der Platine HB-RF-USB kompatibel. Eine Nutzung mit anderen Platinen ist untersagt, da es dort u.U. zu Defekten bis hin zur Zerstörung angeschlossener Hardware kommen kann.
-Die Platine benötigt spezielle Treiber, diese sind in [piVCCU3](https://github.com/alexreinert/piVCCU) ab Version 3.41.11-13 eingebaut.
+Die Platine benötigt spezielle Treiber, diese sind in [piVCCU3](https://github.com/alexreinert/piVCCU) ab Version 3.41.11-13, in [debmatic](https://github.com/alexreinert/debmatic) und in [RaspberryMatic](https://github.com/jens-maus/RaspberryMatic) ab Version 3.41.11.20190126 eingebaut.
 
 ## HB-UNI-SEN-BATT
 Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](https://github.com/pa-pa/AskSinPP)
