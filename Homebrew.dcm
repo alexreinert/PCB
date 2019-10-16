@@ -1,7 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP H1102NL
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps
+K single port ethernet transformer poe center-tap
+$ENDCMP
+#
 $CMP HT7533-1
 K ldo linear fixed positive
+$ENDCMP
+#
+$CMP Hanrun_HR911105A
+D LAN Transformer Jack, RJ45, 10/100 BaseT
+K lan jack transformer
+F http://katalog.we-online.de/pbs/datasheet/7499010121A.pdf
+$ENDCMP
+#
+$CMP RT9400
+D R-Tone RT9400 PoE module
+F http://www.r-tone.com/Upload/DownFiles/RT9400_POE%20PD_SPEC_V6_2.pdf
 $ENDCMP
 #
 $CMP TXS0108EPWR

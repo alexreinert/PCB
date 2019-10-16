@@ -12,7 +12,7 @@ Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RF-RPI-MOD per USB a
 
 ### Benötigte Bauteile:
 * 1x FTDI FT232RL (U1)
-* 1x Micro USB Connector MK5P
+* 1x Micro USB Connector U-F-M5DD-Y-1 (bis Rev. 1.3 MK5P Micro USB Connector)
 * 1x Kerko 4.7nF 0805 (C9)
 * 1x Kerko 10nF 0805 (C7)
 * 6x Kerko 100nF 0805 (C1-C6)
