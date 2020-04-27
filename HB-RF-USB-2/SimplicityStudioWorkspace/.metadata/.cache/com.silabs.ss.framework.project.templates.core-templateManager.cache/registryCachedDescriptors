@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="blink" label="Thunderboard Sense Blink" description="Simple demo blinking an LED for the Thunderboard Sense">
+    <properties key="core.partCompatibility" value=".*efr32mg1p132f256gm48.*"/>
+    <properties key="core.boardCompatibility" value="brd4160a"/>
+    <properties key="coreSdk.contributingSdk" value="com.silabs.stack.ble:[2.0.0.0-2.0.1.1)"/>
+    <properties key="template.initiallyOpenedResource" value="src/blink.c"/>
+    <properties key="template.projectFilePaths" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/blink/SimplicityStudio/blink.slsproj"/>
+    <properties key="core.detected" value="true"/>
+    <properties key="core.builtin" value="true"/>
+    <properties key="template.importModeCompatibility" value="-IN_PLACE -LINK"/>
+    <properties key="template.toolchainCompatibility" value="-com.silabs.ss.framework.project.core.noToolChain:0.0.0 .*"/>
+    <properties key="template.stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.debug com.silabs.ss.framework.project.toolchain.core.release"/>
+    <properties key="template.projectURIs" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/blink/SimplicityStudio/blink.slsproj"/>
+    <properties key="template.copyOriginalContent" value="true"/>
+    <properties key="template.namespace" value="projectTemplate"/>
+    <properties key="CACHED_ID_STRING" value="compatibleSDK.asset-//examples/ble_2000/examples_thunderboard_sense/examples/blink/SimplicityStudio/blink.slsproj"/>
+  </descriptors>
+  <descriptors name="blinkRGB" label="Thunderboard Sense Blink RGB" description="Cycles through colors using one of the RGB LEDs for the Thunderboard Sense">
+    <properties key="core.partCompatibility" value=".*efr32mg1p132f256gm48.*"/>
+    <properties key="core.boardCompatibility" value="brd4160a"/>
+    <properties key="coreSdk.contributingSdk" value="com.silabs.stack.ble:[2.0.0.0-2.0.1.1)"/>
+    <properties key="template.initiallyOpenedResource" value="src/blinkRGB.c"/>
+    <properties key="template.projectFilePaths" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/blinkRGB/SimplicityStudio/blinkRGB.slsproj"/>
+    <properties key="core.detected" value="true"/>
+    <properties key="core.builtin" value="true"/>
+    <properties key="template.importModeCompatibility" value="-IN_PLACE -LINK"/>
+    <properties key="template.toolchainCompatibility" value="-com.silabs.ss.framework.project.core.noToolChain:0.0.0 .*"/>
+    <properties key="template.stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.debug com.silabs.ss.framework.project.toolchain.core.release"/>
+    <properties key="template.projectURIs" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/blinkRGB/SimplicityStudio/blinkRGB.slsproj"/>
+    <properties key="template.copyOriginalContent" value="true"/>
+    <properties key="template.namespace" value="projectTemplate"/>
+    <properties key="CACHED_ID_STRING" value="compatibleSDK.asset-//examples/ble_2000/examples_thunderboard_sense/examples/blinkRGB/SimplicityStudio/blinkRGB.slsproj"/>
+  </descriptors>
+  <descriptors name="connectedMotion" label="Thunderboard Sense Connected Motion" description="Uses the accelerometer and RGB LEDs to indicate movement and free-fall. Uses the radio to broadcast its state to nearby boards, making them synchronize their colors.">
+    <properties key="core.partCompatibility" value=".*efr32mg1p132f256gm48.*"/>
+    <properties key="core.boardCompatibility" value="brd4160a"/>
+    <properties key="coreSdk.contributingSdk" value="com.silabs.stack.ble:[2.0.0.0-2.0.1.1)"/>
+    <properties key="template.toolchainCompatibility" value="iar -com.silabs.ss.framework.project.core.noToolChain:0.0.0"/>
+    <properties key="template.initiallyOpenedResource" value="src/main.c"/>
+    <properties key="template.projectFilePaths" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/connectedMotion/SimplicityStudio/connectedMotion.slsproj"/>
+    <properties key="core.detected" value="true"/>
+    <properties key="core.builtin" value="true"/>
+    <properties key="template.importModeCompatibility" value="-IN_PLACE -LINK"/>
+    <properties key="template.stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.debug com.silabs.ss.framework.project.toolchain.core.release"/>
+    <properties key="template.projectURIs" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/connectedMotion/SimplicityStudio/connectedMotion.slsproj"/>
+    <properties key="template.copyOriginalContent" value="true"/>
+    <properties key="template.namespace" value="projectTemplate"/>
+    <properties key="CACHED_ID_STRING" value="compatibleSDK.asset-//examples/ble_2000/examples_thunderboard_sense/examples/connectedMotion/SimplicityStudio/connectedMotion.slsproj"/>
+  </descriptors>
+  <descriptors name="emode" label="Thunderboard Sense EMode" description="Cycle through energy modes with the left button, and stay there until the&#xA;next button press.&#xA;&#xA;This example project uses the EFR32 CMSIS and demonstrates the use of&#xA;the RTCC, GPIO and various Energy Modes (EM).">
+    <properties key="core.partCompatibility" value=".*efr32mg1p132f256gm48.*"/>
+    <properties key="core.boardCompatibility" value="brd4160a"/>
+    <properties key="coreSdk.contributingSdk" value="com.silabs.stack.ble:[2.0.0.0-2.0.1.1)"/>
+    <properties key="template.initiallyOpenedResource" value="src/emode.c"/>
+    <properties key="template.projectFilePaths" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/emode/SimplicityStudio/emode.slsproj"/>
+    <properties key="core.detected" value="true"/>
+    <properties key="core.builtin" value="true"/>
+    <properties key="template.importModeCompatibility" value="-IN_PLACE -LINK"/>
+    <properties key="template.toolchainCompatibility" value="-com.silabs.ss.framework.project.core.noToolChain:0.0.0 .*"/>
+    <properties key="template.stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.debug com.silabs.ss.framework.project.toolchain.core.release"/>
+    <properties key="template.projectURIs" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/emode/SimplicityStudio/emode.slsproj"/>
+    <properties key="template.copyOriginalContent" value="true"/>
+    <properties key="template.namespace" value="projectTemplate"/>
+    <properties key="CACHED_ID_STRING" value="compatibleSDK.asset-//examples/ble_2000/examples_thunderboard_sense/examples/emode/SimplicityStudio/emode.slsproj"/>
+  </descriptors>
+  <descriptors name="senseApp" label="The Official Thunderboard Sense App" description="Bluetooth Low Energy (BLE) application which reads motion and environmental sensor data&#xA;and transmits it to the Thunderboard smartphone app.  Use the app to control I/O.">
+    <properties key="core.partCompatibility" value=".*efr32mg1p132f256gm48.*"/>
+    <properties key="core.boardCompatibility" value="brd4160a"/>
+    <properties key="coreSdk.contributingSdk" value="com.silabs.stack.ble:[2.0.0.0-2.0.1.1)"/>
+    <properties key="template.toolchainCompatibility" value="iar -com.silabs.ss.framework.project.core.noToolChain:0.0.0"/>
+    <properties key="template.initiallyOpenedResource" value="src/main.c"/>
+    <properties key="template.projectFilePaths" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/senseApp/SimplicityStudio/senseApp.slsproj"/>
+    <properties key="core.detected" value="true"/>
+    <properties key="core.builtin" value="true"/>
+    <properties key="template.importModeCompatibility" value="-IN_PLACE -LINK"/>
+    <properties key="template.stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.debug com.silabs.ss.framework.project.toolchain.core.release"/>
+    <properties key="template.projectURIs" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/senseApp/SimplicityStudio/senseApp.slsproj"/>
+    <properties key="template.copyOriginalContent" value="true"/>
+    <properties key="template.namespace" value="projectTemplate"/>
+    <properties key="CACHED_ID_STRING" value="compatibleSDK.asset-//examples/ble_2000/examples_thunderboard_sense/examples/senseApp/SimplicityStudio/senseApp.slsproj"/>
+  </descriptors>
+  <descriptors name="vcom" label="Thunderboard Sense VCom" description="Uses the built-in Virtual COM port on the board to communicate with a PC.">
+    <properties key="core.partCompatibility" value=".*efr32mg1p132f256gm48.*"/>
+    <properties key="core.boardCompatibility" value="brd4160a"/>
+    <properties key="coreSdk.contributingSdk" value="com.silabs.stack.ble:[2.0.0.0-2.0.1.1)"/>
+    <properties key="template.initiallyOpenedResource" value="src/main.c"/>
+    <properties key="template.projectFilePaths" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/vcom/SimplicityStudio/vcom.slsproj"/>
+    <properties key="core.detected" value="true"/>
+    <properties key="core.builtin" value="true"/>
+    <properties key="template.importModeCompatibility" value="-IN_PLACE -LINK"/>
+    <properties key="template.toolchainCompatibility" value="-com.silabs.ss.framework.project.core.noToolChain:0.0.0 .*"/>
+    <properties key="template.stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.debug com.silabs.ss.framework.project.toolchain.core.release"/>
+    <properties key="template.projectURIs" value="asset://examples/ble_2000/examples_thunderboard_sense/examples/vcom/SimplicityStudio/vcom.slsproj"/>
+    <properties key="template.copyOriginalContent" value="true"/>
+    <properties key="template.namespace" value="projectTemplate"/>
+    <properties key="CACHED_ID_STRING" value="compatibleSDK.asset-//examples/ble_2000/examples_thunderboard_sense/examples/vcom/SimplicityStudio/vcom.slsproj"/>
+  </descriptors>
+  <descriptors name="com.silabs.metadata_iots.examples.pta_master" label="IoTS PTA Master" description="IoTS PTA Master application">
+    <properties key="template.defaultName" value="pta_master"/>
+    <properties key="core.title" value="IoT Systems Sample Applications"/>
+    <properties key="core.category" value="Coexistence Examples"/>
+    <properties key="core.partCompatibility" value=".*"/>
+    <properties key="core.boardCompatibility" value="brd4161a"/>
+    <properties key="coreSdk.contributingSdk" value="com.silabs.sdk.stack.super:[2.2.0.0-2.3.0.0)"/>
+    <properties key="frameworkId" value="flex"/>
+    <properties key="template.namespace" value="template.esf"/>
+    <properties key="template.ideCompatibility" value="simplicity-ide"/>
+    <properties key="template.initiallyOpenedResource" value="./pta_master.isc"/>
+    <properties key="core.installationPath" value="asset://iots/examples/iots_examples/pta_master/pta_master.isc"/>
+    <properties key="core.detected" value="true"/>
+    <properties key="core.builtin" value="true"/>
+    <properties key="template.importModeCompatibility" value="-IN_PLACE -LINK"/>
+    <properties key="template.toolchainCompatibility" value="-com.silabs.ss.framework.project.core.noToolChain:0.0.0 .*"/>
+    <properties key="template.stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.debug com.silabs.ss.framework.project.toolchain.core.release"/>
+    <properties key="CACHED_ID_STRING" value="template.esf.com.silabs.metadata_iots.examples.pta_master.C-/SiliconLabs/SimplicityStudio/v4/configuration/studio/metadata/com.silabs.metadata.iots.feature/metadata/iotsexamples.templates"/>
+  </descriptors>
+</model:MDescriptors>

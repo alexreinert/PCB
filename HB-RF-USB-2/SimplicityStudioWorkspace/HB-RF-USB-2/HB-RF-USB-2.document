@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<document:XMLDocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:document="http://www.silabs.com/config/document/document.ecore">
+  <documentObject id="cp2102n_a01_gqfn20" version="1.0">
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_075" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_110" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_1200" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_128K" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_134_5" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_14400" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_150" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_1800" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_19200" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_2400" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_300" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_38400" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_4800" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_56K" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_57600" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_600" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_7200" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_9600" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableBaud.SERIAL_BAUD_USER" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableData.SERIAL_DATABITS_5" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableData.SERIAL_DATABITS_6" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableData.SERIAL_DATABITS_7" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableStopParity.SERIAL_PARITY_EVEN" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableStopParity.SERIAL_PARITY_MARK" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableStopParity.SERIAL_PARITY_ODD" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableStopParity.SERIAL_PARITY_SPACE" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableStopParity.SERIAL_STOPBITS_1_5" value="false"/>
+    <propertyValue propertyId="cp2102n.commProp.SettableStopParity.SERIAL_STOPBITS_2_0" value="false"/>
+    <propertyValue propertyId="cp2102n.configByteArray" value="A6 02 01 FF FF 12 01 00 02 00 00 00 40 C4 10 60 EA 03 01 01 02 03 01 09 02 20 00 01 01 00 80 32 09 04 00 00 02 FF 00 00 00 07 05 02 02 40 00 00 07 05 82 02 40 00 00 04 03 09 04 00 1A 03 53 00 69 00 6C 00 69 00 63 00 6F 00 6E 00 20 00 4C 00 61 00 62 00 73 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4C 03 43 00 50 00 32 00 31 00 30 00 32 00 4E 00 20 00 55 00 53 00 42 00 20 00 74 00 6F 00 20 00 55 00 41 00 52 00 54 00 20 00 42 00 72 00 69 00 64 00 67 00 65 00 20 00 43 00 6F 00 6E 00 74 00 72 00 6F 00 6C 00 6C 00 65 00 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 0A 03 30 00 30 00 30 00 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5F 05 00 FF FF 0F F6 FB 0F 5F 05 00 FF FF 0F FF FB 0F 0F FF 83 06 33 42 00 00 01 01 00 00 00 00 00 00 00 80 02 00 00 80 02 00 00 C0 C6 2D 10 01 00 00 00 3F 01 00 00 7F 00 00 00 FF FF 07 10 0F 00 07 1F 80 02 00 00 80 02 00 00 00 00 00 00 00 00 00 00 33 00 2E 00 30 00 00 00 00 00 03 01 00 EF 42"/>
+    <propertyValue propertyId="cp2102n.intelHex" value=":10F80000A60201FFFF1201000200000040C41060C8&#xA;:10F81000EA03010102030109022000010100803214&#xA;:10F820000904000002FF000000070502024000007A&#xA;:10F830000705820240000004030904001A03530074&#xA;:10F8400069006C00690063006F006E0020004C00CE&#xA;:10F850006100620073000000000000000000000072&#xA;:10F860000000000000000000000000000000000098&#xA;:10F870000000000000000000000000000000000088&#xA;:10F880000000000000000000000000000000000078&#xA;:10F890000000000000000000000000000000000068&#xA;:10F8A0000000000000000000000000000000000058&#xA;:10F8B0000000000000000000000000000000004CFC&#xA;:10F8C000034300500032003100300032004E00206F&#xA;:10F8D00000550053004200200074006F00200055C6&#xA;:10F8E0000041005200540020004200720069006490&#xA;:10F8F0000067006500200043006F006E0074007216&#xA;:10F90000006F006C006C00650072000000000000D9&#xA;:10F9100000000000000000000000000000000000E7&#xA;:10F9200000000000000000000000000000000000D7&#xA;:10F9300000000000000000000000000000000000C7&#xA;:10F9400000000000000000000000000000000000B7&#xA;:10F9500000000000000000000000000000000000A7&#xA;:10F960000000000000000000000000000000000097&#xA;:10F970000000000000000000000000000000000087&#xA;:10F980000000000000000000000000000000000077&#xA;:10F990000000000000000000000000000000000067&#xA;:10F9A0000000000000000000000000000000000057&#xA;:10F9B0000000000000000000000000000000000047&#xA;:10F9C00000FF0A033000300030003100000000006A&#xA;:10F9D0000000000000000000000000000000000027&#xA;:10F9E0000000000000000000000000000000000017&#xA;:10F9F0000000000000000000000000000000000007&#xA;:10FA000000000000000000000000000000000000F6&#xA;:10FA100000000000000000000000000000000000E6&#xA;:10FA200000000000000000000000000000000000D6&#xA;:10FA300000000000000000000000000000000000C6&#xA;:10FA4000000000005F0500FFFF0FF6FB0F5F0500E1&#xA;:10FA5000FFFF0FFFFB0F0FFF830633420000010182&#xA;:10FA6000000000000000008002000080020000C0D2&#xA;:10FA7000C62D10010000003F0100007F000000FFC4&#xA;:10FA8000FF07100F00071F80020000800200000027&#xA;:10FA90000000000000000033002E003000000000D5&#xA;:10FAA00000030100EF42FFFFFFFFFFFFFFFFFFFF2B&#xA;:10FAB000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF56&#xA;:10FAC000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF46&#xA;:10FAD000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF36&#xA;:10FAE000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF26&#xA;:10FAF000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF16&#xA;:10FB0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF05&#xA;:10FB1000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5&#xA;:10FB2000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE5&#xA;:10FB3000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD5&#xA;:10FB4000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC5&#xA;:10FB5000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5&#xA;:10FB6000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA5&#xA;:10FB7000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF95&#xA;:10FB8000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF85&#xA;:10FB9000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF75&#xA;:10FBA000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF65&#xA;:10FBB000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0054&#xA;:00000001FF&#xA;"/>
+    <propertyValue propertyId="cp2102n.mfrDesc.mfrDescLen" value="36"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO0.reset.Latch" value="0"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO0.reset.Mode" value="1"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO0.suspend.Mode" value="1"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO1.reset.Mode" value="1"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO1.suspend.Mode" value="1"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO2.reset.Mode" value="1"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO2.suspend.Mode" value="1"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO3.reset.Latch" value="0"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO3.reset.Mode" value="1"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO3.suspend.Mode" value="1"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.SUSPEND.reset.Latch" value="1"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.SUSPENDb.reset.Latch" value="0"/>
+    <propertyValue propertyId="cp2102n.prodDesc.prodDescLen" value="24"/>
+    <propertyValue propertyId="cp2102n.useInternalSerial" value="255"/>
+    <propertyValue propertyId="cp210x_base.customer.address" value="&#xA;&#xA;,  &#xA;"/>
+    <propertyValue propertyId="cp210x_base.customer.contactname" value=" "/>
+    <propertyValue propertyId="cp210x_base.serialization.serialKey" value="11E31EAB-E06A-4B2B-8614-3E9C9EFED973"/>
+    <propertyValue propertyId="cp210x_base.set_ids.PID" value="0x8c07"/>
+    <propertyValue propertyId="cp210x_base.set_ids.manufacturerString" value="Alexander Reinert"/>
+    <propertyValue propertyId="cp210x_base.set_ids.maxPower_real" value="75"/>
+    <propertyValue propertyId="cp210x_base.set_ids.maxPower_user" value="150"/>
+    <propertyValue propertyId="cp210x_base.set_ids.productString" value="HB-RF-USB-2"/>
+    <propertyValue propertyId="cp210x_base.set_ids.releaseVersion" value="257"/>
+    <propertyValue propertyId="cp210x_base.set_ids.releaseVersionMinor" value="0x1"/>
+  </documentObject>
+</document:XMLDocument>

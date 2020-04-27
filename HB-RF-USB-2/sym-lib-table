@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Homebrew)(type Legacy)(uri ${KIPRJMOD}/../Homebrew.lib)(options "")(descr ""))
+  (lib (name HB-RF-USB-2-rescue)(type Legacy)(uri ${KIPRJMOD}/HB-RF-USB-2-rescue.lib)(options "")(descr ""))
+)
