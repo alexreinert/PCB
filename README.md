@@ -5,6 +5,16 @@ Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung - Nicht-k
 Bei Nutzung der Platinen freue ich mich über Feedback und kleine Aufmerksamkeiten aus meiner [Amazon Wunschliste](https://www.amazon.de/gp/registry/wishlist/3NNUQIQO20AAP/ref=nav_wishlist_lists_1).
 
 # PCB
+## HB-RF-ETH
+Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RPI-RF-MOD per Netzwerk anschließen zu können.
+![Layout](HB-RF-ETH/HB-RF-ETH.png)
+[Schaltplan](HB-RF-ETH/HB-RF-ETH.pdf)
+Die Platine benötigt spezielle Treiber, welche demnächst in [debmatic](https://github.com/alexreinert/debmatic) und in [piVCCU3](https://github.com/alexreinert/piVCCU) verfügbar sein werden.
+Eine passende Firmware findet sich unter [HB-RF-ETH](https://github.com/alexreinert/HB-RF-ETH).
+
+### Benötigte Bauteile:
+Siehe Schaltplan
+
 ## HB-RF-USB-2
 Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RPI-RF-MOD per USB anschließen zu können.
 ![Layout](HB-RF-USB-2/HB-RF-USB-2.png)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name HB-RF-ETH-rescue)(type Legacy)(uri ${KIPRJMOD}/HB-RF-ETH-rescue.lib)(options "")(descr ""))
+  (lib (name Homebrew)(type Legacy)(uri ${KIPRJMOD}/../Homebrew.lib)(options "")(descr ""))
+)
