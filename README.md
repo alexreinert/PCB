@@ -9,7 +9,7 @@ Bei Nutzung der Platinen freue ich mich über Feedback und kleine Aufmerksamkeit
 Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RPI-RF-MOD per Netzwerk anschließen zu können.
 ![Layout](HB-RF-ETH/HB-RF-ETH.png)
 [Schaltplan](HB-RF-ETH/HB-RF-ETH.pdf)
-Die Platine benötigt spezielle Treiber, welche demnächst in [debmatic](https://github.com/alexreinert/debmatic) und in [piVCCU3](https://github.com/alexreinert/piVCCU) verfügbar sein werden.
+Die Platine benötigt spezielle Treiber, welche in [debmatic](https://github.com/alexreinert/debmatic) und in [piVCCU3](https://github.com/alexreinert/piVCCU) verfügbar sind.
 Eine passende Firmware findet sich unter [HB-RF-ETH](https://github.com/alexreinert/HB-RF-ETH).
 
 ### Benötigte Bauteile:
@@ -38,7 +38,7 @@ Die Platine benötigt spezielle Treiber, diese sind in [debmatic](https://github
 * 1x Pinheader 2x20 (J2)
 
 ### EEPROM flashen
-Das EEPROM des CP2102N muss mit dem Silicon Labs Simplicity Studio umprogrammiert werden.
+[Anleitung](https://hb-programmer.areinert.de)
 
 ## HB-RF-USB
 Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RPI-RF-MOD per USB anschließen zu können.
@@ -63,7 +63,7 @@ Die Platine benötigt spezielle Treiber, diese sind in [piVCCU3](https://github.
 * 1x Pinheader 2*20
 
 ### EEPROM flashen
-Das EEPROM des FT232RL muss mit dem Programm [FT_Prog](https://www.ftdichip.com/Support/Utilities.htm#FT_PROG) programmiert werden. Ein passendes Template findet sich [hier](HB-RF-USB/HB-RF-USB_FT232R_Template.xml). Dieses Template ist nur mit der Platine HB-RF-USB kompatibel. Eine Nutzung mit anderen Platinen ist untersagt, da es dort u.U. zu Defekten bis hin zur Zerstörung angeschlossener Hardware kommen kann.
+[Anleitung](https://hb-programmer.areinert.de)
 
 ## HB-UNI-SEN-BATT
 Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](https://github.com/pa-pa/AskSinPP)
