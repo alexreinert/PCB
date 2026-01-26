@@ -4,6 +4,8 @@ Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung - Nicht-k
 
 Bei Nutzung der Platinen freue ich mich über Feedback und kleine Aufmerksamkeiten aus meiner [Amazon Wunschliste](https://www.amazon.de/gp/registry/wishlist/3NNUQIQO20AAP/ref=nav_wishlist_lists_1).
 
+Viele Platinen gibt es auch im offiziellen Shop [viopcb](https://www.viopcb.de/).
+
 # PCB
 ## HB-RF-ETH
 Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RPI-RF-MOD per Netzwerk anschließen zu können.
@@ -11,6 +13,7 @@ Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RPI-RF-MOD per Netzw
 [Schaltplan](HB-RF-ETH/HB-RF-ETH.pdf)
 Die Platine benötigt spezielle Treiber, welche in [debmatic](https://github.com/alexreinert/debmatic) und in [piVCCU3](https://github.com/alexreinert/piVCCU) verfügbar sind.
 Eine passende Firmware findet sich unter [HB-RF-ETH](https://github.com/alexreinert/HB-RF-ETH).
+Diese Platine ist auch als fertig bestückter Bausatz erhältlich bei [viopcb](https://www.viopcb.de/Bausatz-HB-RF-ETH-mit-PoE).
 
 ### Benötigte Bauteile:
 Siehe Schaltplan
@@ -20,6 +23,7 @@ Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RPI-RF-MOD per USB a
 ![Layout](HB-RF-USB-2/HB-RF-USB-2.png)
 [Schaltplan](HB-RF-USB-2/HB-RF-USB-2.pdf)
 Die Platine benötigt spezielle Treiber, diese sind in [debmatic](https://github.com/alexreinert/debmatic) ab Version 3.51.6-45 und in [piVCCU3](https://github.com/alexreinert/piVCCU) ab Version 3.51.6-40 eingebaut.
+Diese Platine ist auch als fertig bestückter Bausatz erhältlich bei [viopcb](https://www.viopcb.de/Bausatz-HB-RF-USB-2).
 
 ### Benötigte Bauteile:
 * 1x CP2102N (U1)
@@ -69,6 +73,7 @@ Die Platine benötigt spezielle Treiber, diese sind in [piVCCU3](https://github.
 Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](https://github.com/pa-pa/AskSinPP)
 ![Layout](HB-UNI-SEN-BATT/HB-UNI-SEN-BATT.png)
 [Schaltplan](HB-UNI-SEN-BATT/HB-UNI-SEN-BATT.pdf)
+Diese Platine ist auch erhältlich bei [viopcb](https://www.viopcb.de/Platine-HB-UNI-SEN-BATT).
 
 ### Benötigte Bauteile:
 * Arduino Pro Mini 3.3V 8Mhz (The Simple)
@@ -95,6 +100,7 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](https://github.com/pa-pa/AskSinPP)
 ![Layout](HB-UNI-SEN-PCB/HB-UNI-SEN-PCB.png)
 [Schaltplan](HB-UNI-SEN-PCB/HB-UNI-SEN-PCB.pdf)
+Diese Platine ist auch erhältlich bei [viopcb](https://www.viopcb.de/Platine-HB-UNI-SEN-PCB).
 
 ### Benötigte Bauteile:
 * Arduino Pro Mini 3.3V 8Mhz (The Simple)
@@ -200,6 +206,7 @@ Eine universelle Platine für Homebrew Geräte basierend auf [AskSin++ Library](
 Eine passende Platine für den [Wettersensor von Jérôme](https://github.com/jp112sdl/HB-UNI-Sen-WEA/)
 ![Layout](HB-UNI-SEN-WEA/HB-UNI-SEN-WEA.png)
 [Schaltplan](HB-UNI-SEN-WEA/HB-UNI-SEN-WEA.pdf)
+Diese Platine ist auch erhältlich bei [viopcb](https://www.viopcb.de/Platine-HB-UNI-SEN-WEA).
 
 ### Benötigte Bauteile:
 * Arduino Pro Mini 3.3V 8Mhz (The Simple)
